@@ -21,6 +21,7 @@ jobs:
       - name: Package and publish
         uses: EffectiveRange/python-package-github-action@v1
         with:
-          debian-dist-type: 'library'
+          debian-dist-type: 'application'
+          devcontainer-config: 'armhf-container'
       - name: Release
         uses: EffectiveRange/version-release-github-action@v1
