@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          submodules: true
       - name: Package and publish
         uses: EffectiveRange/python-package-github-action@v1
         with:
