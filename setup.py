@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="mrhat-rtcwake",
-    version="0.1.0",
+    version="0.1.4",
     description="rtcwake like utility to be used on RaspberryPi with the Effective Range MrHat extension board",
     author="Ferenc Nandor Janky & Attila Gombos",
     author_email="info@effective-range.com",
